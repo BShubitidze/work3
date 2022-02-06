@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: none;
+}
+.headmainbar{
+    box-sizing: border-box;
+    width: 100%;
+    height: 170px;
+    background-color: rgb(36, 34, 34);
+}
+.navbarabout{
+    box-sizing: border-box;
+    width: 60px;
+    height: 100px;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 60px;
+    padding-top: 30px;
+}
+.navbartxt{
+    box-sizing: border-box;
+    width: 670px;
+    height: 30px;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: -23px;
+}
+.navbarContact{
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 870px;
+    margin-top: -80px;
+}
+.navbarul{
+    box-sizing: border-box;
+    margin-left: 870px;
+    list-style: none;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+}
+.navbarul a{
+    color: whitesmoke;
+}
+.headbar{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(36, 34, 34);
+}
+.headimage{
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.album{
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: -25px;
+    margin-left: 90px;
+}
+#headbtnimage{
+    width: 60px;
+    height: 50px;
+    margin-left: 1150px;
+    margin-top: -40px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 100px;
+}
+h2{
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgba(91, 94, 90, 0.7);
+    margin-left: 310px;
+}
+.headbtns{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.hbtn1{
+    padding: 11px 15px 11px 15px;
+    background-color: rgb(51, 89, 214);
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+    text-decoration: 0;
+    margin-right: 5px;
+}
+.hbtn1:hover{
+    background-color: rgb(38, 72, 184);
+}
+.hbtn1:focus{
+    box-shadow: 0px 0px 0px 5px rgba(38, 72, 184, 0.3);
+}
+.hbtn2{
+    padding: 11px 15px 11px 15px;
+    background-color: rgb(126, 125, 125);
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+    text-decoration: 0;
+    margin-left: 5px;
+}
+.hbtn2:hover{
+    background-color: rgb(102, 100, 100);
+}
+.hbtn2:focus{
+    box-shadow: 0px 0px 0px 5px rgba(90, 89, 89, 0.3);
+}
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 1200px;
+    background-color: whitesmoke;
+}
+.container1{
+    box-sizing: border-box;
+    width: 1200px;
+    height: 400px;
+    margin: 150px 0 0 40px;
+}
+.box{
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin: 20px 5px 0 25px;
+    padding: 80px;
+    background-color: rgb(103, 104, 102);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(165, 167, 164, 0.3);
+}
+.box1{
+    box-sizing: border-box;
+    background-color: rgb(235, 228, 228);
+    width: 350px;
+    height: 150px;
+    float: left;
+    margin: 0 5px 0 25px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px 30px 20px 20px;
+    box-shadow: 1px 1px 1px 1px rgba(165, 167, 164, 0.3);
+}
+.container2{
+    box-sizing: border-box;
+    width: 1200px;
+    height: 400px;
+    margin: 0 0 0 40px;
+}
+.box2{
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin: 20px 5px 0 25px;
+    padding: 80px;
+    background-color: rgb(103, 104, 102);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(165, 167, 164, 0.3);
+
+}
+.box3{
+    box-sizing: border-box;
+    background-color: rgb(235, 228, 228);
+    width: 350px;
+    height: 150px;
+    float: left;
+    margin: 0 5px 0 25px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px 30px 20px 20px;
+    box-shadow: 1px 1px 1px 1px rgba(165, 167, 164, 0.3);
+}
+.container3{
+    box-sizing: border-box;
+    width: 1200px;
+    height: 400px;
+    margin: 0 0 0 40px;
+}
+.box4{
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin: 20px 5px 0 25px;
+    padding: 80px;
+    background-color: rgb(103, 104, 102);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(165, 167, 164, 0.3);
+}
+.box5{
+    box-sizing: border-box;
+    background-color: rgb(235, 228, 228);
+    width: 350px;
+    height: 150px;
+    float: left;
+    margin: 0 5px 0 25px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px 30px 20px 20px;
+    box-shadow: 1px 1px 1px 1px rgba(165, 167, 164, 0.3);
+}
+.button1{
+    box-sizing: border-box;
+    width: 350px;
+    margin-top: 30px;
+}
+.view{
+    box-sizing: border-box;
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+}
+.edit{
+    box-sizing: border-box;
+    margin-left: -7px;
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+}
+.view:hover
+{
+    background-color: rgb(104, 104, 100);
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.edit:hover{
+    background-color: rgb(104, 104, 100);
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.view:focus{
+    box-shadow: rgba(91, 92, 94, 0.5) 0px 0px 0px 5px;
+    border-radius: 2px 0 0 2px;
+    position: relative;
+    transition: 0.2s;
+}
+.edit:focus{
+    box-shadow: rgba(91, 92, 94, 0.5) 0px 0px 0px 5px;
+    border-radius: 0 2px 2px 0;
+    transition: 0.2s;
+}
+.btn{
+    box-sizing: border-box;
+    float: left;
+}
+.button1 p{
+    box-sizing: border-box;
+    float: left;
+}
+p{
+    margin: 0 20px 0 180px;
+}
+.top{
+    float: right;
+    margin-right: 60px;
+}
+html, body {
+    scroll-behavior: smooth;
+}
+.foot{
+    float: left;
+    margin-left: -120px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(153, 150, 150);
+    margin-bottom: 50px;
+}
+.footlnk{
+    color: rgb(14, 115, 155);
+}
+.top{
+    color: rgb(14, 115, 155);
+}
